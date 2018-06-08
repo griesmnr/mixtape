@@ -14,11 +14,15 @@
     "@babel/register": "^7.0.0-beta.49"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-optimum-energy": "^0.3.1",
     "nodemon": "^1.17.5"
   },
   "scripts": {
     "build": "babel source -d build",
     "serve": "babel-node source/server.js",
+    "lint": "eslint --max-warnings=0 .",
     "watch": "nodemon --inspect=0.0.0.0:9229 -w ./source -x babel-node source/server.js"
   }
 }
