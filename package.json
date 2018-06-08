@@ -15,12 +15,16 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "eslint": "^4.19.1",
     "eslint-config-optimum-energy": "^0.3.1",
+    "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
   },
   "scripts": {
     "build": "babel source -d build",
+    "test": "scripts/test",
     "serve": "babel-node source/server.js",
     "lint": "eslint --max-warnings=0 .",
     "watch": "nodemon --inspect=0.0.0.0:9229 -w ./source -x babel-node source/server.js"
