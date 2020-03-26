@@ -4,27 +4,32 @@
   "repository": "~project-repository~",
   "license": "UNLICENSED",
   "private": true,
+  "engines": {
+    "node": "^10"
+  },
   "dependencies": {
-    "@babel/cli": "^7.0.0-beta.49",
-    "@babel/core": "^7.0.0-beta.49",
-    "@babel/node": "^7.0.0-beta.49",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.49",
-    "@babel/plugin-proposal-export-default-from": "^7.0.0-beta.49",
-    "@babel/preset-env": "^7.0.0-beta.49",
-    "@babel/register": "^7.0.0-beta.49"
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "envalid": "^6.0.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "eslint": "^4.19.1",
-    "eslint-config-optimum-energy": "^0.3.1",
-    "mocha": "^5.2.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1",
     "nodemon": "^1.17.5"
   },
   "scripts": {
     "build": "babel source -d build",
-    "test": "scripts/test",
+    "test": "jest --detectOpenHandles",
     "serve": "babel-node source/server.js",
     "lint": "eslint --max-warnings=0 .",
     "watch": "nodemon --inspect=0.0.0.0:9229 -w ./source -x babel-node source/server.js"
