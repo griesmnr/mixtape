@@ -1,7 +1,7 @@
 {
-  "name": "~project-name~",
-  "description": "~project-description~",
-  "repository": "~project-repository~",
+  "name": "Mixtape",
+  "description": "A place for users to manage their playlists",
+  "repository": "git@github.com:griesmnr/mixtape.git",
   "license": "UNLICENSED",
   "private": true,
   "engines": {
