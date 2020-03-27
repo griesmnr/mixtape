@@ -14,6 +14,11 @@
       "artist": "Alice Merton",
       "title": "No Roots",
       "id": "8636e74c-076c-4b34-8233-1e38caa87f88"
+    },
+    {
+      "artist": "Bloodhound Gang",
+      "title": "Fire Water Burn",
+      "id": "0b14e930-9829-42d2-9544-b041b14ce2d7"
     }
   ],
   "friends": [
@@ -24,14 +29,17 @@
     {
       "name": "John T",
       "id": "7b765dfc-0813-41a8-b01f-5e5a05bdbf96"
+    },
+    {
+      "name": "Richie A",
+      "id": "ff218dcf-b0b6-433d-8753-370e727ff74a"
     }
   ],
   "playlists": [
     {
-      "friend_id": "d07fdb11-86f2-45bd-96dd-f1ced630e897T",
+      "friend_id": "ff218dcf-b0b6-433d-8753-370e727ff74a",
       "song_ids": [
-        "f070ae5a-2587-4f94-bb92-28beb1c1f686",
-        "73bcf0de-b824-4d49-b316-ef3d83dc2f5b"
+        "0b14e930-9829-42d2-9544-b041b14ce2d7"
       ],
       "id": "dd895c5e-f766-42f7-a63d-a2e0359c8cf9"
     }
