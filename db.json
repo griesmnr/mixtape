@@ -4,6 +4,16 @@
       "artist": "Nightmares on Wax",
       "title": "Soul Purpose",
       "id": "f070ae5a-2587-4f94-bb92-28beb1c1f686"
+    },
+    {
+      "artist": "Natural Self",
+      "title": "Soul Communication",
+      "id": "73bcf0de-b824-4d49-b316-ef3d83dc2f5b"
+    },
+    {
+      "artist": "Alice Merton",
+      "title": "No Roots",
+      "id": "8636e74c-076c-4b34-8233-1e38caa87f88"
     }
   ],
   "friends": [
@@ -14,6 +24,16 @@
     {
       "name": "John T",
       "id": "7b765dfc-0813-41a8-b01f-5e5a05bdbf96"
+    }
+  ],
+  "playlists": [
+    {
+      "friend_id": "d07fdb11-86f2-45bd-96dd-f1ced630e897T",
+      "song_ids": [
+        "f070ae5a-2587-4f94-bb92-28beb1c1f686",
+        "73bcf0de-b824-4d49-b316-ef3d83dc2f5b"
+      ],
+      "id": "dd895c5e-f766-42f7-a63d-a2e0359c8cf9"
     }
   ]
 }
