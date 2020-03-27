@@ -1,6 +1,6 @@
 {
   "name": "Mixtape",
-  "description": "A place for users to manage their playlists",
+  "description": "A place for users to make playlists for their friends",
   "repository": "git@github.com:griesmnr/mixtape.git",
   "license": "UNLICENSED",
   "private": true,
