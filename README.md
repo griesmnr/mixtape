@@ -1,6 +1,12 @@
 # Mixtape JS
 
-an API for users who want to build playlists for their friends.
+An API for users who want to build playlists for their friends.
+
+## Setup
+
+You'll need to set up an environment, with so far just the `PORT` variable. My favorite way to do that is with an `.envrc` file and using `direnv`. If you're new to that, you can read about that here. https://direnv.net/
+
+In the project's home repo, after running yarn, run `yarn serve`. Then make web requests to http://localhost:{your-port-number} using the paths in the router.js file. For instance, GET http://localhost:{your-port-number}/songs.
 
 ## Developer Notes
 
