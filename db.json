@@ -5,5 +5,15 @@
       "title": "Soul Purpose",
       "id": "f070ae5a-2587-4f94-bb92-28beb1c1f686"
     }
+  ],
+  "friends": [
+    {
+      "name": "Naomi B",
+      "id": "d07fdb11-86f2-45bd-96dd-f1ced630e897"
+    },
+    {
+      "name": "John T",
+      "id": "7b765dfc-0813-41a8-b01f-5e5a05bdbf96"
+    }
   ]
 }
