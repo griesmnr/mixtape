@@ -1,4 +1,8 @@
-# Mixtape JS- an API for users who want to build playlists for their friends.
+# Mixtape JS
+
+an API for users who want to build playlists for their friends.
+
+## Developer Notes
 
 This is the first node API I've built from scratch in a while. There is a lot that I've learned and there's a lot left to do on it.
 
