@@ -1,3 +1,6 @@
+import dbClient from "../../db/db-client";
+
 export default function getSongs(context) {
-  context.body = "hello world";
+  context.body = dbClient.get('songs')
+    .value();
 }
